@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "yzhang.markdown-all-in-one",
+    "formulahendry.auto-rename-tag",
+    "sdras.vue-vscode-extensionpack",
+    "mikestead.dotenv",
+    "steoates.autoimport",
+    "streetsidesoftware.code-spell-checker",
+    "christian-kohler.npm-intellisense",
+    "vincaslt.highlight-matching-tag",
+    "vscode-icons-team.vscode-icons",
+    "timonwong.shellcheck"
+  ]
+}

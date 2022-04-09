@@ -1,0 +1,36 @@
+{
+  "name": "adevz",
+  "version": "0.1.0-rc.1",
+  "description": "advez config and code collection",
+  "author": "naorz",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "pnpx eslint '**/*.{js,spec.js,json}' --max-warnings=0",
+    "lint:fix": "pnpm run lint -- --fix",
+    "refresh": "rm -rf node_modules && rm -f pnpm-lock.yaml && pnpm i && pnpm audit --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@adevz/config-lint-vanilla": "^0.1.0-rc.1"
+  },
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naorz/adevz.git"
+  },
+  "keywords": [
+    "adevz",
+    "config",
+    "eslint",
+    "code-style"
+  ],
+  "homepage": "https://github.com/naorz/adevz#readme",
+  "bugs": {
+    "url": "https://github.com/naorz/adevz/issues"
+  }
+}
+

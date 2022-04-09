@@ -1,0 +1,40 @@
+{
+  // https://code.visualstudio.com/docs/getstarted/settings
+  // code style
+  // ----------------
+  "editor.formatOnSave": false,
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+
+  // git
+  "git.autofetch": true,
+
+  "files.exclude": {
+    "**/.vscode": false,
+
+    "**/.vs": true,
+    "**/.git": true,
+    "**/.idea": true,
+    "**/.DS_Store": true,
+    "**/.happypack": true
+  },
+
+
+  "search.exclude": {
+    "**/*.log": true,
+    "**/.git": true,
+    "**/.idea": true,
+    "**/build": true,
+    "**/.vscode": true,
+    "**/coverage": true,
+    "**/.happypack": true,
+    "**/node_modules": true
+  },
+}
